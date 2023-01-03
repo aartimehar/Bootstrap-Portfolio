@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.fix-rounded-right {
+    border-top-right-radius: .2rem !important;
+    border-bottom-right-radius: .2rem !important;
+  }

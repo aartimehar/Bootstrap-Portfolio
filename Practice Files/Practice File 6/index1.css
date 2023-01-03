@@ -1,0 +1,18 @@
+* {
+    
+    font-size: 20px;
+    color:black;
+  }
+  
+  .mt-n1 {
+    margin-top: -0.25rem !important;
+  }
+
+
+  .visible {
+    visibility: visible !important;
+  }
+  .invisible {
+    visibility: hidden !important;
+  }
+    

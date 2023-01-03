@@ -1,0 +1,43 @@
+
+a {
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none !important;
+  position: relative;
+  color: #a0a0a0!important;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+a:hover {
+  color: #ffffff;
+}
+
+
+.hoverable{
+  transition-duration: .3s;
+}
+
+.hoverable:hover, .hoverable:active, .hoverable:focus{
+  transform: translateY(-5px);
+}
+.hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before{
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+
+
+
+@media (min-width: 768px) {
+  .navbar{
+    text-align: center !important;
+    float: none;
+    display: inline-block;
+  }
+}
+
+
+.page-title {
+  opacity: .75 !important;
+}
+
+
